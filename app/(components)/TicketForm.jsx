@@ -41,7 +41,7 @@ const TicketForm = ({ ticket }) => {
       }
     }
 
-    router.push("/"), router.refresh();
+    router.push("/tickets"), router.refresh();
   };
 
   const startingTicketData = {
