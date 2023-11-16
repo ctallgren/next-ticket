@@ -2,12 +2,9 @@ import TicketCard from "./(components)/TicketCard";
 
 const getTickets = async () => {
   try {
-    const res = await fetch(
-      "https://next-ticket-c5xq3uf3o-ctallgren.vercel.app/api/tickets",
-      {
-        cache: "no-store",
-      }
-    );
+    const res = await fetch("https://next-ticket-ct.vercel.app/api/tickets", {
+      cache: "no-store",
+    });
 
     return res.json();
   } catch {
