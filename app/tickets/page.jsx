@@ -1,5 +1,7 @@
 import TicketCard from "../../app/(components)/TicketCard";
 
+export const dynamic = "force-dynamic";
+
 const URL = process.env.NEXT_PUBLIC_URL;
 
 const getTickets = async () => {
